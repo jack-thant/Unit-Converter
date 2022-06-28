@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+:root {
+    --bg-color-1: rgba(105, 67, 255, 1);
+    --bg-color-2: rgba(31, 41, 55, 1);
+    --card-bg: rgba(39, 53, 73, 1);
+    --subtitle-color: rgba(204, 193, 255, 1);
+    --white: rgba(255, 255, 255, 1);
+    --btn-color: rgba(61, 61, 61, 1);
+    --border-color: rgba(178, 149, 255, 1);
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color-2);
+}
+
+.heading-section {
+    width: 100%;
+    margin-top: 0;
+    height: 285px;
+    padding: 20px 0px;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: var(--white);
+    font-size: 28px;
+}
+
+input.input-box {
+    height: 83px;
+    border: solid 2px var(--border-color);
+    caret-color: var(--border-color);
+    font-size: 58px;
+    text-align: center;
+    color: var(--white);
+    margin: 20px 0px;
+}
+
+input.input-box:focus {
+    outline: 2px solid var(--border-color);
+}
+
+.convert-btn {
+    background-color: var(--white);
+    height: 42px;
+    border: none;
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+    color: rgba(61, 61, 61, 1);
+    font-size: 18px;
+}
+
+.card {
+    width: 500px;
+    height: 110px;
+    background-color: var(--card-bg);
+    border-radius: 5px;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title, #convert-length, #convert-volume, #convert-mass {
+    text-align: center;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--subtitle-color);
+}
+
+#convert-length, #convert-volume, #convert-mass {
+    color: var(--white);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.br-5 {
+    border-radius: 5px;
+}
+
+.convert-btn:hover {
+    cursor: pointer;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-800 {
+    font-weight: 800;
+}
+
+.w-117 {
+    width: 117px;
+}
+
+.bg-color-1 {
+    background-color: var(--bg-color-1);
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.mv-40 {
+    margin: 40px 0;
+}
+
+
+
+
+
