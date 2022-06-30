@@ -60,6 +60,7 @@ input.input-box:focus {
     height: 110px;
     background-color: var(--card-bg);
     border-radius: 5px;
+    margin: 0 20px;
 }
 
 .flex-col {
